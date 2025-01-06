@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prof Rabie Maths</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <header>
+        <nav class="top-nav">
+            <a href="#" class="logo">Prof Rabie Maths</a>
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="welcome-text">
+                <p class="welcome">Bienvenue sur le site de</p>
+                <h1>Prof Rabie Maths</h1>
+                <p class="subtitle">Enseignant de mathématiques</p>
+                <a href="#about"><button class="cta-button">À propos de moi</button></a>
+            </div>
+
+            <div class="profile-container">
+                <div class="profile-arch">
+                    <img src="https://profrabiemaths.com/assets/img/perfil.png" alt="Professor" class="profile-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2>À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://profrabiemaths.com/assets/img/work3.jpg" alt="Prof Rabie" class="about-photo">
+                </div>
+                <div class="about-text">
+                    <p>Le professeur Rabie est un enseignant des mathématiques fondamentales et appliquées pour les élèves du lycée qualifiant et les étudiants du cycle supérieur.</p>
+                    <p>Il a accumulé une expérience de plus de 20 ans dans l'enseignement, ce qui lui a permis de développer des compétences pédagogiques et didactiques de haute qualité.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2>Ce Que J'offre</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Cours</h3>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-compass"></i>
+                    <h3>Orientation</h3>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Préparation</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="registration" id="registration">
+            <h2>Formulaire d'Inscription</h2>
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" class="nom">
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" class="prenom">
+                </div>
+                <div class="form-group">
+                    <label for="Numero">Numero de telephone</label>
+                    <input type="number" id="Numero" name="Numero" class="numero">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="Email" id="Email" name="Email" class="email">
+                </div>
+                <div class="form-group">
+                    <label for="ville">Ville</label>
+                    <input type="text" id="ville" name="ville" class="ville" >
+                </div>
+                <div class="form-group">
+                    <label for="niveau">Niveau</label>
+                    <select id="niveau" name="niveau" class="niveau">
+                        <option value="1BAC_SE">1/BAC Science Experimentale</option>
+                        <option value="1BAC_ECO">1/Bac ECO</option>
+                        <option value="1BAC_SM">1BAC SM</option>
+                        <option value="2BAC_SMA">2/Bac Science MathA</option>
+                        <option value="2BAC_SMB">2/Bac Science MathB</option>
+                        <option value="2BAC_SP">2/Bac Science Physique</option>
+                        <option value="2BAC_SVT">2/Bac SVT</option>
+                        <option value="2BAC_STM">2/Bac STM</option>
+                        <option value="2BAC_STE">2/Bac STE</option>
+                        <option value="2BAC_ECO">2/Bac ECO</option>
+                    </select>
+                </div>
+                <button  class="submit-button">S'inscrire</button>
+            </form>
+        </section>
+
+        <nav class="social-sidebar">
+            <ul>
+                <li><a href="https://www.instagram.com/prof_rabie_maths?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.tiktok.com/@prof.rabie.maths?is_from_webapp=1&sender_device=pc" aria-label="TikTok"><i class="fab fa-tiktok"></i></a></li>
+            </ul>
+        </nav>
+
+        <nav class="bottom-nav">
+            <ul>
+                <li><a href="#theme-toggle"><i class="fas fa-home"></i></a></li>
+                <li><a href="#about"><i class="fas fa-user"></i></a></li>
+                <li><a href="#registration"><i class="fas fa-folder"></i></a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: rabie.isli@gmail.com</p>
+                <p>Téléphone: +212 6 61 10 15 16</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens Rapides</h3>
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#registration">Inscription</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/prof_rabie_maths?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@prof.rabie.maths?is_from_webapp=1&sender_device=pc" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Prof Rabie Maths. Tous droits réservés| Develped by <strong><a href="https://reachmediagency.com/" class="reach">reachmediagency</a></strong></p>
+        </div>
+    </footer>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
